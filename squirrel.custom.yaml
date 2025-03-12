@@ -14,9 +14,47 @@
 
 patch:
   style:
-    color_scheme: roseo_maple            # 白亮模式下启用的皮肤，名字对应下方对皮肤的字义名
-    color_scheme_dark: roseo_maple_dark  # 暗黑模式下启用的皮肤
+    color_scheme: github            # 白亮模式下启用的皮肤，名字对应下方对皮肤的字义名
+    color_scheme_dark: wechat  # 暗黑模式下启用的皮肤
   preset_color_schemes:
+    wechat:
+      name: '微信键盘 / WeChat-keyboard' # 配色取自微信键盘
+      author: zsakvo
+      back_color: 0xFFFFFF
+      border_height: 0
+      border_width: 8
+      candidate_format: '%c %@ '
+      comment_text_color: 0x999999
+      corner_radius: 5
+      hilited_corner_radius: 5
+      font_face: PingFangSC
+      font_point: 18
+      hilited_candidate_back_color: 0x75B100
+      hilited_candidate_text_color: 0xFFFFFF
+      horizontal: true
+      inline_preedit: true
+      label_font_point: 16
+      text_color: 0x424242
+      candidate_list_layout: linear           # stacked | linear
+    github:
+      name: "Github"
+      author: "yzlnew"
+      horizontal: true                        # 水平排列
+      candidate_list_layout: linear           # stacked | linear
+      inline_preedit: true                    # 单行显示，false双行显示
+      candidate_format: "%c\u2005%@\u2005"    # 编号 %c 和候选词 %@ 前后的空间
+      corner_radius: 5                       # 候选条圆角
+      border_color: 0xe7e2dd                  # 边框色
+      border_height: 0
+      border_width: 0
+      back_color: 0xffffff                    # 候选条背景色
+      font_point: 18                          # 候选字词大小
+      text_color: 0x7d736a                    # 候选词颜色
+      label_font_face: "HanaMinB"             # 候选词编号字体
+      label_font_point: 16                    # 候选编号大小
+      hilited_candidate_text_color: 0x3a8622  # 候选文字颜色
+      hilited_candidate_back_color: 0xddfbff  # 候选文字背景色
+      comment_text_color: 0xbcbbba            # 拼音等提示文字颜色
     roseo_maple:
       name: 玫枫 / Roseo Maple
       # v1.00 之后新增  ------ start  -----
