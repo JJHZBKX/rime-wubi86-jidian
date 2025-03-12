@@ -147,10 +147,21 @@ patch:
       hilited_back_color: 0xEFEFF4              # 颜色 - 输入中 - 背景
 
 # --- 特定程序定义初始状态的英文输入 ---
+#  mdls -name kMDItemCFBundleIdentifier /Applications/APP名
   app_options:
     com.termius-dmg.mac: # Terminal - Mac
       ascii_mode: true
-#    com.google.Chrome: # Chrome
+    io.dcloud.HBuilderX: # HbuilderX
+      ascii_mode: true
+    com.googlecode.iterm2: # iTerm2
+      ascii_mode: true
+    com.DanPristupov.Fork: # Fork
+      ascii_mode: true
+    com.microsoft.VSCode: # vscode
+      ascii_mode: true
+    com.jetbrains.intellij: # IDEA
+      ascii_mode: true
+#    com.googl】】e.Chrome: # Chrome
 #      ascii_mode: true
 #    com.coderforart.MWeb3: # MWeb
 #      ascii_mode: true
